@@ -1,4 +1,4 @@
-# Political_Repo
+# Political-Ideology-on-Twitter
 
 <h3>Predicting the Political Alignment of Twitter Users(20111) - https://ieeexplore.ieee.org/document/6113114</h3>
 <h3>Ideology Detection for Twitter Users with Heterogeneous Types of Links(2016) - https://arxiv.org/abs/1612.08207</h3>
