@@ -1,4 +1,37 @@
-# Political-Ideology-on-Twitter
+# Predicting Political Ideology of Twitter Users
+
+## Problem Statement
+
+Given a text (single/multiple documents), figuring out the political ideology of the person to which the text belongs to.
+
+**Dataset**: Social Network Data - Twitter
+
+## Methodology
+
+● This would be a supervised classification problem. We aim to classify active user and not so active user who supports one or another political ideology.
+● First, we’ll extract the dataset from Twitter to form the initial seed data set (which we can filter out in later steps).
+● The dataset is cleaned by removing the stopwords and lower-casing the tweet text.
+● Naive Bayes, MaxEnt and Decision Tree are used for classification.
+
+## Dataset
+
+We acquired data from the author Lyle Ungar and received the Twitter IDs of the users which were annotated in the range
+of (1-7).
+
+As of now, I have collected the data from the given Twitter ids by them and from the Twitter Lists which we had seen that
+day (MBFC - Media Bias / Fact Check Twitter Lists).
+
+A brief overview of the data:
+
+● 3130 Tweet ID objects from the Lyle Ungar Team- Annotated 1-7.
+● 368 Left Leaning and 164 Right Leaning Tweet ID objects.
+● Most of the Tweet IDs from the Lyle Ungar team are by actual users as such whereas the Tweet IDs from the MBFC lists are of influencers as in the newspaper press, news website or so.
+
+## Results
+
+Used a tool called MALLET for the data cleansing and classification task.
+
+## References
 
 <h3>Predicting the Political Alignment of Twitter Users(20111) - https://ieeexplore.ieee.org/document/6113114</h3>
 <h3>Ideology Detection for Twitter Users with Heterogeneous Types of Links(2016) - https://arxiv.org/abs/1612.08207</h3>
