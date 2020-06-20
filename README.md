@@ -33,7 +33,7 @@ Used a tool called MALLET for the data cleansing and classification task.
 
 ![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/binary_new.png?raw=true)
 
-![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/senti_multi.png?raw=true)
+<!-- ![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/senti_multi.png?raw=true) -->
 
 ## References
 
