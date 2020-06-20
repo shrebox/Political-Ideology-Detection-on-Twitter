@@ -31,6 +31,8 @@ A brief overview of the data:
 
 Used a tool called MALLET for the data cleansing and classification task.
 
+![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/senti_multi.png?raw=true)
+
 ## References
 
 1. Predicting the Political Alignment of Twitter Users(20111) - https://ieeexplore.ieee.org/document/6113114
