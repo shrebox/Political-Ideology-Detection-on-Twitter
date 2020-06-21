@@ -8,6 +8,7 @@ Given a text (single/multiple documents), figuring out the political ideology of
 
 ## Methodology
 
+#### Steps for prediction
 ● This would be a supervised classification problem. We aim to classify active user and not so active user who supports one or another political ideology.
 ● First, we’ll extract the dataset from Twitter to form the initial seed data set (which we can filter out in later steps).
 ● The dataset is cleaned by removing the stopwords and lower-casing the tweet text.
