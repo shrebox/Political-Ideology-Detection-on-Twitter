@@ -34,7 +34,7 @@ A brief overview of the data:
 
 ## Live Prediction
 
-The live prediction script requires [tweepy](http://docs.tweepy.org/en/latest/) and [MALLET](http://mallet.cs.umass.edu/download.php) installed. You'll also require Twitter API keys for extracting the user's tweets for prediction.
+The live prediction script requires [tweepy](http://docs.tweepy.org/en/latest/) and [MALLET](http://mallet.cs.umass.edu/download.php) installed. You'll also require Twitter API keys for extracting the user's tweets.
 
 ```
 $ python live_prediction.py
