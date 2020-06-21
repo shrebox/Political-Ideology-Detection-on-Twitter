@@ -29,7 +29,7 @@ A brief overview of the data:
 ● Naive Bayes, MaxEnt and Decision Tree are used for classification on a pre-trained model from the dataset.
 
 #### Model
-● [Mallet](http://mallet.cs.umass.edu/index.php) is used to train the model on two available datasets.
+● [MALLET](http://mallet.cs.umass.edu/index.php) (Machine Learning for Langauge Toolkit) is used to train the model on two available datasets.
 ● The data is converted to a vector of feature/value pairs, such that a feature consists of a distinct word type and the value is the number of times that word occurs in the text.
 
 ## Results
