@@ -54,7 +54,7 @@ b'We	1	0.5256503227197841	0	0.4743496772802158
 b'OBAMA	1	0.27952755637092475	0	0.7204724436290753
 ```
 
-The first line of the test data is left-wing biased which is shown in the output with label 1(Right) given more weightage as compared to the label 0(Left). The second line is opposite of the first denoting the Obama being a Leftist.
+The first line of the test data is right-wing biased which is shown in the output with label 1 (Right) given more weightage as compared to the label 0 (Left). The second line is opposite of the first denoting the Obama being a Leftist.
 
 #### Classification
 
