@@ -42,6 +42,22 @@ $ python live_prediction.py
 
 ## Results
 
+#### Prediction
+
+```
+Test data:
+b'We should make america conservative again'
+b'OBAMA ALL THE WAY!!!'
+
+Output:
+b'We	1	0.5256503227197841	0	0.4743496772802158
+b'OBAMA	1	0.27952755637092475	0	0.7204724436290753
+```
+
+The first line of the test data is left-wing biased which is shown in the output with label 1(Right) given more weightage as compared to the label 0(Left). The second line is opposite of the first denoting the Obama being a Leftist.
+
+#### Classification
+
 These results also incorporate hashtags, mentions and sentiment ([Senti Strength](http://sentistrength.wlv.ac.uk/) is used) along with the Bag of Words features (text) which are independent of language. 
 
 > Binary Classification (Left or Right):
