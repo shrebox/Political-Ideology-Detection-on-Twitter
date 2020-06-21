@@ -26,7 +26,7 @@ A brief overview of the data:
 ● This would be a supervised classification problem. We aim to classify active user and not so active user who supports one or another political ideology.
 ● First, we’ll extract the dataset from Twitter to form the initial seed data set (which we can filter out in later steps).
 ● The dataset is cleaned by removing the stopwords and lower-casing the tweet text.
-● Naive Bayes, MaxEnt and Decision Tree are used for classification on a pre-trained model from the dataset.
+● Naive Bayes, MaxEnt and Decision Tree are used for classification on a [pre-trained model](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/trained_prediction_model_mallet) from the dataset.
 
 #### Model
 ● [MALLET](http://mallet.cs.umass.edu/index.php) (Machine Learning for Langauge Toolkit) is used to train the model on two available datasets.
