@@ -60,11 +60,15 @@ The first line of the test data is right-wing biased which is shown in the outpu
 
 These results also incorporate hashtags, mentions and sentiment ([Senti Strength](http://sentistrength.wlv.ac.uk/) is used) along with the Bag of Words features (text) which are independent of language. 
 
+```
 > Binary Classification (Left or Right):
+```
 
 ![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/images/binary_new.png?raw=true)
 
+```
 > Multi-class Classification (Left, Right or Neutral):
+```
 
 ![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/images/senti_multi.png?raw=true)
 
