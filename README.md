@@ -34,7 +34,7 @@ A brief overview of the data:
 
 ## Results
 
-These results also incorporate hashtags and sentiment along with the Bag of Words features. 
+These results also incorporate hashtags, mentions and sentiment along with the Bag of Words features (text) which are independent of language. 
 
 > Binary Classification (Left or Right):
 
