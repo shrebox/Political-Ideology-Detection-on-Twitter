@@ -32,6 +32,14 @@ A brief overview of the data:
 ● [MALLET](http://mallet.cs.umass.edu/index.php) (Machine Learning for Langauge Toolkit) is used to train the model on two available datasets.
 ● The data is converted to a vector of feature/value pairs, such that a feature consists of a distinct word type and the value is the number of times that word occurs in the text.
 
+## Live Prediction
+
+The live prediction script requires [tweepy](http://docs.tweepy.org/en/latest/) and [MALLET](http://mallet.cs.umass.edu/download.php) installed. You'll also require Twitter API keys for extracting the user's tweets for prediction.
+
+```
+$ python live_prediction.py
+```
+
 ## Results
 
 These results also incorporate hashtags, mentions and sentiment ([Senti Strength](http://sentistrength.wlv.ac.uk/) is used) along with the Bag of Words features (text) which are independent of language. 
