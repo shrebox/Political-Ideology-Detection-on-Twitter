@@ -34,7 +34,7 @@ A brief overview of the data:
 
 ## Results
 
-These results also incorporate hashtags, mentions and sentiment along with the Bag of Words features (text) which are independent of language. 
+These results also incorporate hashtags, mentions and sentiment ([Senti Strength](http://sentistrength.wlv.ac.uk/) is used) along with the Bag of Words features (text) which are independent of language. 
 
 > Binary Classification (Left or Right):
 
