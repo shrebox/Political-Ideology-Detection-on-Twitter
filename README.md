@@ -11,7 +11,11 @@ Given a text (single/multiple documents), figuring out the political ideology of
 ● This would be a supervised classification problem. We aim to classify active user and not so active user who supports one or another political ideology.
 ● First, we’ll extract the dataset from Twitter to form the initial seed data set (which we can filter out in later steps).
 ● The dataset is cleaned by removing the stopwords and lower-casing the tweet text.
-● Naive Bayes, MaxEnt and Decision Tree are used for classification.
+● Naive Bayes, MaxEnt and Decision Tree are used for classification on a pre-trained model from the dataset.
+
+#### Model
+● [Mallet](http://mallet.cs.umass.edu/index.php) is used to train the model on two available datasets.
+● The data is converted to a vector of feature/value pairs, such that a feature consists of a distinct word type and the value is the number of times that word occurs in the text.
 
 ## Dataset
 
