@@ -34,12 +34,14 @@ A brief overview of the data:
 
 ## Results
 
-These also incorporate the results for hashtags and sentiment incorporated along the Bag of Words features. 
+These results also incorporate hashtags and sentiment along with the Bag of Words features. 
 
 Binary Classification (Left or Right):
+
 ![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/images/binary_new.png?raw=true)
 
-Multi-class Classification (Left, Right, Neutral)
+Multi-class Classification (Left, Right, Neutral):
+
 ![alt text](https://github.com/shrebox/Political-Ideology-Detection-on-Twitter/blob/master/images/senti_multi.png?raw=true)
 
 ## References
