@@ -6,18 +6,6 @@ Given a text (single/multiple documents), figuring out the political ideology of
 
 **Dataset**: Social Network Data - Twitter
 
-## Methodology
-
-#### Prediction
-● This would be a supervised classification problem. We aim to classify active user and not so active user who supports one or another political ideology.
-● First, we’ll extract the dataset from Twitter to form the initial seed data set (which we can filter out in later steps).
-● The dataset is cleaned by removing the stopwords and lower-casing the tweet text.
-● Naive Bayes, MaxEnt and Decision Tree are used for classification on a pre-trained model from the dataset.
-
-#### Model
-● [Mallet](http://mallet.cs.umass.edu/index.php) is used to train the model on two available datasets.
-● The data is converted to a vector of feature/value pairs, such that a feature consists of a distinct word type and the value is the number of times that word occurs in the text.
-
 ## Dataset
 
 We acquired data from the author Lyle Ungar and received the Twitter IDs of the users which were annotated in the range
@@ -31,6 +19,18 @@ A brief overview of the data:
 ● 3130 Tweet ID objects from the Lyle Ungar Team- Annotated 1-7.
 ● 368 Left Leaning and 164 Right Leaning Tweet ID objects.
 ● Most of the Tweet IDs from the Lyle Ungar team are by actual users as such whereas the Tweet IDs from the MBFC lists are of influencers as in the newspaper press, news website or so.
+
+## Methodology
+
+#### Prediction
+● This would be a supervised classification problem. We aim to classify active user and not so active user who supports one or another political ideology.
+● First, we’ll extract the dataset from Twitter to form the initial seed data set (which we can filter out in later steps).
+● The dataset is cleaned by removing the stopwords and lower-casing the tweet text.
+● Naive Bayes, MaxEnt and Decision Tree are used for classification on a pre-trained model from the dataset.
+
+#### Model
+● [Mallet](http://mallet.cs.umass.edu/index.php) is used to train the model on two available datasets.
+● The data is converted to a vector of feature/value pairs, such that a feature consists of a distinct word type and the value is the number of times that word occurs in the text.
 
 ## Results
 
